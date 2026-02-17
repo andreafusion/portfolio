@@ -1,15 +1,16 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
+import tailwindcssPlugin from "@tailwindcss/vite";
+import vercelAdapter from "@astrojs/vercel/static";
 
-import tailwindcss from '@tailwindcss/vite';
+// Cast a "callable" para que VSCode no se queje con @ts-check
+/** @type {any} */ const tailwindcss = tailwindcssPlugin;
+/** @type {any} */ const vercel = vercelAdapter;
 
-import cloudflare from '@astrojs/cloudflare';
-
-// https://astro.build/config
 export default defineConfig({
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
   },
-  output: 'server',
-  adapter: cloudflare()
+  output: "static",
+  adapter: vercel(),
 });
