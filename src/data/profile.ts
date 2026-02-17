@@ -2,29 +2,30 @@ export const PROFILE = {
   name: "Andrea",
   shortName: "Andrea", // lo que sale grande tipo “Rafa.”
   greeting: "Hey, I'm",
-  headlinePrefix: "And I",
-  highlightWord: "Aesthetic",
-  headlineSuffix: "websites.",
+  headlinePrefix: "And I design websites with",
+  highlightWord: "real",
+  headlineSuffix: "personality.",
+
   focusTitle: "Current Focus",
   focusItems: ["Fullstack Development", "UI Design"],
   hobbiesTitle: "Downtime & Hobbies",
-hobbies: [
-  {
-    name: "Nature",
-    theme: "emerald", // para clases hover
-    icon: "leaf",
-  },
-  {
-    name: "Drawing",
-    theme: "purple",
-    icon: "pencil",
-  },
-  {
-    name: "Music",
-    theme: "emerald",
-    icon: "music",
-  },
-],
+  hobbies: [
+    {
+      name: "Nature",
+      theme: "emerald", // para clases hover
+      icon: "leaf",
+    },
+    {
+      name: "Drawing",
+      theme: "purple",
+      icon: "pencil",
+    },
+    {
+      name: "Music",
+      theme: "emerald",
+      icon: "music",
+    },
+  ],
 
   ctaTitle: "Let's build something together",
   ctaSubtitle: "Contact me",

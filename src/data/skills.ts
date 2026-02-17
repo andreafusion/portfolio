@@ -94,7 +94,7 @@ const ICONS = {
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     title: "Frontend",
-    description: "UI semántica, responsive y moderna",
+    description: "Semantic, responsive, and modern UI",
     class: "from-blue-400 to-cyan-300",
     skills: [
       { name: "HTML5", icon: ICONS.fileCode },
@@ -106,7 +106,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     title: "Motion & Web Platform",
-    description: "Animaciones, PWA y experiencia fluida",
+    description: "Animations, PWA, and a smooth experience",
     class: "from-purple-400 to-pink-300",
     skills: [
       { name: "GSAP", icon: ICONS.zap },
@@ -118,7 +118,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     title: "Tooling & Deploy",
-    description: "Entorno de trabajo y despliegue",
+    description: "Work environment and Deployment",
     class: "from-emerald-400 to-green-300",
     skills: [
       { name: "Node.js", icon: ICONS.terminal },
