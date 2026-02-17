@@ -1,52 +1,54 @@
-import frontTools from "../assets/front-tools.png?url";
-import wiku from "../assets/wiku.webp?url";
-import portfolio from "../assets/portfolio.webp?url";
+// src/data/projects.ts
+import mimasPwa from "../assets/projects/mimas-pwa.webp?url";
+import creativeWebsite from "../assets/projects/creative-website.webp?url";
+import salirdelBucle from "../assets/projects/app-salirdelbucle.webp?url";
 
 export const PROJECTS = [
   {
-    title: "Front Tools",
-    description: "Essential toolkit for modern frontend development.",
+    title: "Mimas Iconic",
+    description:
+      "Website with booking flow, offline-ready experience, and performance-focused UX.",
     year: "2026",
-    metaLeft: "Free to use",
-    metaRight: "UI Design",
+    metaLeft: "Client project",
+    metaRight: "Professional website + Booking",
+    metaRightClass: "text-rose-500 dark:text-rose-400",
+    titleHoverClass:
+      "group-hover:text-rose-600 dark:group-hover:text-rose-400",
+    buttonHoverClass: "group-hover:bg-rose-600 dark:group-hover:bg-rose-500",
+    image: mimasPwa,
+    alt: "Mimas Iconic PWA preview",
+    url: "https://mimas-iconic-n6hi.vercel.app",
+  },
+  {
+    title: "Creative Website",
+    description:
+      "My personal website redesign concept, focused on typography, motion and visual storytelling.",
+    year: "2026",
+    metaLeft: "Personal project",
+    metaRight: "Web Design",
     metaRightClass: "text-blue-500 dark:text-blue-400",
     titleHoverClass:
       "group-hover:text-blue-600 dark:group-hover:text-blue-400",
-    buttonHoverClass:
-      "group-hover:bg-blue-600 dark:group-hover:bg-blue-500",
-    image: frontTools,
-    alt: "Frontend Tools",
-    url: "https://frontdev-tools.pages.dev/",
+    buttonHoverClass: "group-hover:bg-blue-600 dark:group-hover:bg-blue-500",
+    image: creativeWebsite,
+    alt: "Creative website preview",
+    // Pon aquí la URL real cuando la publiques (Vercel/Netlify/etc.)
+    url: "https://andreafusion.github.io/web-andrea/",
   },
   {
-    title: "Wiku",
-    description: "AI study assistant, using free AI models.",
-    year: "2025",
-    metaLeft: "AI Utility",
-    metaRight: "AI Assistant",
-    metaRightClass: "text-amber-500 dark:text-amber-400",
-    titleHoverClass:
-      "group-hover:text-amber-600 dark:group-hover:text-amber-400",
-    buttonHoverClass:
-      "group-hover:bg-amber-600 dark:group-hover:bg-amber-500",
-    image: wiku,
-    alt: "Wiku",
-    url: "https://github.com/MoriitoDev/Wiku",
-  },
-  // Ejemplo 3 (usa tu proyecto real o bórralo)
-  {
-    title: "My Portfolio",
-    description: "A clean Astro portfolio template customized for my work.",
+    title: "App to stop overthinking",
+    description:
+      "An app for helping people when they're overthinking and need to calm down, let it out or detect patrons",
     year: "2026",
-    metaLeft: "Astro",
-    metaRight: "Portfolio",
-    metaRightClass: "text-emerald-500 dark:text-emerald-400",
+    metaLeft: "Personal project",
+    metaRight: "PWA app design",
+    metaRightClass: "text-blue-500 dark:text-blue-400",
     titleHoverClass:
-      "group-hover:text-emerald-600 dark:group-hover:text-emerald-400",
-    buttonHoverClass:
-      "group-hover:bg-emerald-600 dark:group-hover:bg-emerald-500",
-    image: portfolio,
-    alt: "Portfolio",
-    url: "#",
+      "group-hover:text-blue-600 dark:group-hover:text-blue-400",
+    buttonHoverClass: "group-hover:bg-blue-600 dark:group-hover:bg-blue-500",
+    image: salirdelBucle,
+    alt: "App to stop overthinking preview",
+    // Pon aquí la URL real cuando la publiques (Vercel/Netlify/etc.)
+    url: "https://andreafusion.github.io/app-salirdelbucle/",
   },
 ] as const;
