@@ -8,7 +8,24 @@ export const PROFILE = {
   focusTitle: "Current Focus",
   focusItems: ["Fullstack Development", "UI Design"],
   hobbiesTitle: "Downtime & Hobbies",
-  hobbies: ["Boxing", "Anime", "Music"],
+hobbies: [
+  {
+    name: "Nature",
+    theme: "emerald", // para clases hover
+    icon: "leaf",
+  },
+  {
+    name: "Drawing",
+    theme: "purple",
+    icon: "pencil",
+  },
+  {
+    name: "Music",
+    theme: "emerald",
+    icon: "music",
+  },
+],
+
   ctaTitle: "Let's build something together",
   ctaSubtitle: "Contact me",
   altText: "Andrea Morant",
