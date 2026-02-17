@@ -16,4 +16,4 @@ Personal portfolio built with Astro + Tailwind CSS.
 npm install
 npm run dev
 
-> “Based on Astro-Portfolio template by MoriitoDev, customized by Andrea Fusion.”
+> Inspired by “Astro-Portfolio” by MoriitoDev. Customized and extended by Andrea Fusion.
